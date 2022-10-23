@@ -1,0 +1,128 @@
+body {
+  background-image: url("/fac_website/images/mobile-wallpaper.jpg");
+  background-size: 100%;
+  color: white;
+  padding: 0rem 1rem 0 0rem;
+  font-family: "Andale Mono", sans-serif;
+  font-size: 0.9em;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 0 1.2rem 0;
+}
+
+#container {
+  margin: 0 1rem 0 2rem;
+  width: 90%;
+}
+
+#mobile-nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 93%;
+  margin: 1rem 1rem 1rem 0.5rem;
+}
+
+#nav-name {
+  font-size: large;
+}
+
+#header-menu {
+  margin: 7rem 0 9rem 0;
+  height: 8rem;
+}
+
+#header {
+  margin: 9rem 0 2rem 0rem;
+  height: 3rem;
+}
+
+#header-text {
+  font-size: 1.1rem;
+}
+
+#header-top {
+  display: flex;
+  align-items: flex-end;
+}
+
+#header-bottom {
+  margin: -0.5rem 0 0 0;
+}
+
+#header-top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.header-text {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+#section-menu {
+  margin: 4rem 0 0 -1rem;
+}
+
+#section-why {
+  margin: 4rem 0 0 0;
+}
+
+.menu-options {
+  font-size: 1.1rem;
+}
+
+#menu-title {
+  font-size: 1.4rem;
+  margin: 0 0 1.5rem 4.6rem;
+  text-decoration: underline;
+}
+
+#div-blog {
+  margin: 0 0 7rem 0;
+}
+
+#div-blog {
+  margin: 0 0 7rem 0;
+}
+
+.blog-article {
+  padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+  margin: 3rem 0 0 0rem;
+  background-color: whitesmoke;
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0%;
+  font-size: smaller;
+}
+
+/* IMAGES */
+
+.mobile-nav-icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+#faclogo {
+  width: 5rem;
+}
+
+#header-profile-pic {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin: 0rem 0 1rem 1rem;
+}

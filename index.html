@@ -4,53 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Tesh Patel - Founders & Coders Application</title>
+    <link rel="stylesheet" href="/fac_website/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="http://fonts.cdnfonts.com/css/andale-mono" rel="stylesheet" />
+    <title>Tesh: home</title>
   </head>
   <body>
     <header></header>
 
     <nav>
       <div id="mobile-nav-bar">
-        <img
-          src="/images/menu-icon-white.jpeg"
-          class="mobile-nav-icons"
-          alt=""
-        />
-        <img src="/images/profile_pic.jpeg" class="mobile-nav-icons" alt="" />
-        <img
-          src="/images/fac_logo.png"
-          class="mobile-nav-icons"
-          id="faclogo"
-          alt=""
-        />
-        <img src="/images/triangle-logo.png" class="mobile-nav-icons" alt="" />
-      </div>
-    </nav>
+        <a href="/fac_website/index.html">
+          <img
+            src="/fac_website/images/menu-icon-white.png"
+            class="mobile-nav-icons"
+            alt=""
+        /></a>
 
-    <header id="header">
-      <div id="header-top">
-        <div id="header-top-left">
-          <h2 class="header-text">hello 👋</h2>
-          <h2 class="header-text">i'm tesh ✌️</h2>
+      <span> <h3 id="nav-name">tesh</h3></span>
+      <img
+        src="/fac_website/images/fac_logo.png"
+        class="mobile-nav-icons"
+        id="faclogo"
+        alt=""
+      />
+      <img
+        src="/fac_website/images/triangle-logo.png"
+        class="mobile-nav-icons"
+        alt=""
+      />
+    </div>
+
+    <div id="container">
+      <header id="header-menu">
+        <div id="header-top">
+          <div id="header-top-left">
+            <h2 class="header-text">hello 👋</h2>
+            <h2 class="header-text">i'm tesh ✌️</h2>
+          </div>
+          <img
+            id="header-profile-pic"
+            src="/fac_website/images/profile_pic.jpeg"
+            alt=""
+          />
         </div>
-        <img id="header-profile-pic" src="/images/profile_pic.jpeg" alt="" />
-      </div>
-      <div id="header-bottom">
-        <p>aspiring full stack developer 💻</p>
-      </div>
-    </header>
+        <div id="header-bottom">
+          <p id="header-text">aspiring developer 💻</p>
+        </div>
+      </header>
 
-    <section id="section-menu">
-      <div id="div-menu">
-        <h2>MENU</h2>
-        <ul>
-          <li>🙋🏽‍♂️ about me</li>
-          <li>💌 why i'm applying</li>
-          <li>📂projects & code</li>
-          <li>📝learning blog</li>
-        </ul>
-      </div>
-    </section>
+      <section id="section-menu">
+        <div id="div-menu">
+          <h3 id="menu-title">MENU</h3>
+          <ul>
+            <li class="menu-options">🙋🏽‍♂️ about me</li>
+            <li class="menu-options">💌 why i'm applying</li>
+            <li class="menu-options">📂 projects & code</li>
+            <li class="menu-options">📝 learning blog</li>
+          </ul>
+        </div>
+      </section>
+    </div>
   </body>
+  <footer>
+    <p>Founders and Coders application by Tesh Patel</p>
+  </footer>
 </html>
