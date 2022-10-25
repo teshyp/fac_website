@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/fac_website/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    
+    <title>Tesh: home</title>
+  <link rel="stylesheet" href="./Tesh_ home_files/style.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Tesh_ home_files/andale-mono" rel="stylesheet"></head>
+  <body>
+    <header></header>
+
+    <nav>
+      <div id="mobile-nav-bar">
+        <a href="http://127.0.0.1:5500/fac_website/index.html">
+          <img src="./Tesh_ home_files/menu-icon-white.png" class="mobile-nav-icons" alt=""></a>
+
+      <span> <h3 id="nav-name">tesh</h3></span>
+      <img src="./Tesh_ home_files/fac_logo.png" class="mobile-nav-icons" id="faclogo" alt="">
+      <a href="http://127.0.0.1:5500/fac_website/index.html">
+        <img src="./Tesh_ home_files/triangle-logo.png" class="mobile-nav-icons" alt="">
+      </a>
+    </div>
+
+    <div id="container">
+      <header id="header-menu">
+        <div id="header-top">
+          <div id="header-top-left">
+            <h2 class="header-text">hello 👋</h2>
+            <h2 class="header-text">i'm tesh ✌️</h2>
+          </div>
+          <img id="header-profile-pic" src="./Tesh_ home_files/profile_pic.jpeg" alt="">
+        </div>
+        <div id="header-bottom">
+          <p id="header-text">aspiring developer 💻</p>
+        </div>
+      </header>
+
+      <section id="section-menu">
+        <div id="div-menu">
+          <h3 id="menu-title">MENU</h3>
+          <ul>
+            <li class="home-options"> <a href="http://127.0.0.1:5500/fac_website/about.html"> 🙋🏽‍♂️ about me </a></li>
+            <li class="home-options"> <a href="http://127.0.0.1:5500/fac_website/why.html"> 💌 why i'm applying </a></li>
+            <li class="home-options"> <a href="http://127.0.0.1:5500/fac_website/projects.html"> 📂 projects &amp; code </a></li>
+            <li class="home-options"> <a href="http://127.0.0.1:5500/fac_website/blog.html"> 📝 learning blog</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  <footer>
+    <p>Founders and Coders application by Tesh Patel</p>
+  </footer>
+
+</nav></body></html>
