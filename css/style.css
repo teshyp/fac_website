@@ -1,5 +1,5 @@
 body {
-  background-image: url("/fac_website/images/mobile-wallpaper.jpg");
+  background-image: url("/images/mobile-wallpaper.jpg");
   background-size: 100%;
   color: white;
   padding: 0rem 1rem 0 0rem;
@@ -148,9 +148,9 @@ footer {
 }
 
 /* POPUP MENU */
-#popup-menu {
+#menu-container {
   margin: -0.6rem;
-  padding: 0 0.2rem 0 0.5rem;
+  padding: 2rem 0rem 0rem 0.4rem;
   background-color: white;
   width: 20rem;
   height: 100vh;
@@ -167,6 +167,15 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .trophy-image {
+    width: 12rem;
+  }
+
+  .wip-images {
+    margin: 0.2rem 0 0 0;
+    width: 3.7rem;
   }
 
   #home-container {
@@ -199,6 +208,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .project-title {
+    width: 50rem;
   }
 
   #section-blog {
@@ -239,6 +252,16 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  }
+
+  .trophy-image {
+    width: 17rem;
+    margin: 0 0.1rem 0 0;
+  }
+
+  .wip-images {
+    margin: 0.2rem 0 0 0;
+    width: 4rem;
   }
 
   #desktop-nav-container {
